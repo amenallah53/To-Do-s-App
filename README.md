@@ -1,2 +1,2 @@
-# To-Do-s-App
-Developed a cross-platform task manager using Flutter, implementing Hive (NoSQL) for local storage. Organized tasks by customizable categories with efficient key-value data structure.
+# To Do's App
+To Do's is a cross-platform task manager using Flutter, implementing Hive (NoSQL) for local storage.Tasks are organized by customizable categories with efficient key-value data structure.
