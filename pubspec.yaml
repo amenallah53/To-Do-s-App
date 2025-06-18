@@ -1,0 +1,66 @@
+name: to_dos
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  hive_flutter: ^1.1.0
+  flutter_native_splash: ^2.4.4
+  lottie: ^3.3.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_lints: ^5.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/animation.json
+
+  fonts:
+    - family: ComicNeue
+      fonts:
+        - asset: fonts/ComicNeue-Regular.ttf
+
+
+
+#flutter_icons:
+  #android: true
+  #ios: true
+  #image_path: "assets/images/logo.png"
+  #adaptive_icon_background: "#d1219f"  # For Android adaptive icon
+  #adaptive_icon_foreground: "assets/images/logo.png"
+
+
+flutter_native_splash:
+  color: "#D1219F"
+  #background_image: "images/note.png"
+
+  image: assets/images/ToDos.png
+
+  android_12:
+    image: assets/images/ToDos.png
+
+    color: "#D1219F"
